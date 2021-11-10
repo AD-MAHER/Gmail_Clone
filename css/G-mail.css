@@ -19,7 +19,7 @@ body{
 
 
 .Header{
-   
+ 
      grid-area: Header ;
      align-items: center;
      display: flex;
@@ -294,7 +294,7 @@ border-radius: 0px 50px 50px 0px;
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 12vw;
+    width: 255px;
     background-color: #FFFFFF;
     border-top: 0.5px solid #d7d9da;
 }
@@ -385,7 +385,7 @@ border-radius: 0px 50px 50px 0px;
     .Center_Middle>div>img{
         height: 20px;
         width: 20px;
-        opacity: 0.9;
+        opacity: 0.5;
         margin-right: 20px;
        
         margin-left: 20px;
@@ -428,7 +428,7 @@ border-radius: 0px 50px 50px 0px;
     .Main_Area>img{
         height: 20px;
         width: 20px;
-        opacity: 0.5;
+        opacity: 0.2;
     }
     
     .Main_Area>span{
@@ -437,6 +437,37 @@ border-radius: 0px 50px 50px 0px;
     .Scroll_div{
         overflow:auto;
     }
+ 
+    .Scroll_div::-webkit-scrollbar {
+        width: 11PX;
+        
+    }
+    .Scroll_div::-webkit-scrollbar-thumb{
+        border-radius: 0.1vw;
+        width: 0.1vh;
+        height: 328px;
+        background-color:#CCCCCC;
+        border: 0.1vh solid  #a79f9f;
+    }
+    .Scroll_div::-webkit-scrollbar-track{
+        display: none;
+        height: 328px;
+    }
+     .Scroll_div::-webkit-scrollbar-track:hover{
+        background: #ECEFF1;
+        display: block;
+        border-left: 0.5px solid #c4c4c4;
+    }
+    .Scroll_div::-webkit-scrollbar-thumb:hover{
 
+ 
+
+    }
+   
+    
+    .Scroll_div::-webkit-scrollbar:hover{
+        display: none;
+    }
+    
     
 
